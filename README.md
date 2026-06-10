@@ -9,6 +9,19 @@ ByT5 was chosen for its byte-level tokenization, which handles French accented c
 1. Fine-tuned ByT5-small on 600K pairs from GLAFF dictionary (learning_rate: 4e-4, 3 epochs)
 
 2. Evaluated using Phoneme Error Rate (PER) against multilingual G2P baseline
+## Usage
+
+```
+python
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+
+model = AutoModelForSeq2SeqLM.from_pretrained("JM99l/french-g2p")
+tokenizer = AutoTokenizer.from_pretrained("JM99l/french-g2p")
+
+inputs = tokenizer("parler", return_tensors="pt")
+outputs = model.generate(**inputs)
+print(tokenizer.decode(outputs[0], skip_special_tokens=True))  # paʁle
+```
 
 ## Results
 Fine tune model result:

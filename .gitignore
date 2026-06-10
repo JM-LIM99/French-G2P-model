@@ -1,0 +1,8 @@
+my_g2p_model_final/
+byt5-g2p-french/
+*.safetensors
+*.bin
+.venv/
+.venv311/
+__pycache__/
+*.pyc
