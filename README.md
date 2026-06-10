@@ -16,7 +16,7 @@ Fine tune model result:
 {'eval_loss': '0.01528', 'eval_runtime': '109.2', 'eval_samples_per_second': '493.8', 'eval_steps_per_second': '15.44', 'epoch': '3'}
 100% 45510/45510 [3:09:58<00:00,  3.99it/s]
 100% 1686/1686 [01:49<00:00, 15.23it/s]
-                                       
+```                                       
 ==================================================
 Model                                         PER
 ==================================================
@@ -24,7 +24,7 @@ french_g2p_model_final                     0.1245 <- 54% improvement over baseli
 byt5-multilingual (baseline)               0.2691
 byt5-base                                 74.5940
 ==================================================
-
+```
 ## Project Structure
 ```
 French-G2P-model

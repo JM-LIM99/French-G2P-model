@@ -5,7 +5,7 @@ from transformers import (
     Seq2SeqTrainingArguments, Seq2SeqTrainer, DataCollatorForSeq2Seq,
 )
 from datasets import Dataset
-from data_processing_glaff import DataProcessingGlaff
+from utils.data_processing_glaff import DataProcessingGlaff
 
 
 def main():
