@@ -55,3 +55,5 @@ Python, HuggingFace, pandas, transformers and pytorch
 ## Reference
 GLAFF Dictionary : http://redac.univ-tlse2.fr/lexiques/glaff.html
 ByT5 paper: https://arxiv.org/abs/2105.13626
+HuggingFace Space link : https://huggingface.co/spaces/JM99l/french-g2p
+
