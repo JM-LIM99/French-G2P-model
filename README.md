@@ -33,9 +33,8 @@ Fine tune model result:
 ==================================================
 Model                                         PER
 ==================================================
-french_g2p_model_final                     0.1245 <- 54% improvement over baseline
-byt5-multilingual (baseline)               0.2691
-byt5-base                                 74.5940
+french_g2p_model_final                     0.0698 <- 72% improvement over baseline
+byt5-multilingual (baseline)               0.2501
 ==================================================
 ```
 ## Project Structure
