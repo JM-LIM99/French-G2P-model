@@ -58,3 +58,4 @@ ByT5 paper: https://arxiv.org/abs/2105.13626
 
 HuggingFace Space link : https://huggingface.co/spaces/JM99l/french-g2p
 
+Evaluation dataset link : https://github.com/sigmorphon/2021-task1
